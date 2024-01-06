@@ -1,43 +1,183 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Developer Portfolio</title>
 
-    <link rel="stylesheet" href="<link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700;800&display=swap"
+      rel="stylesheet"
+    />
 
-    <link rel="stylesheet" href="styles/portfolio.css">
-
-</head>
-<body>
+    <link rel="stylesheet" href="styles/portfolio.css" />
+  </head>
+  <body>
     <header class="header">
-        <nav>
-            <h3 class="portfolio_title">Mona<span class="text_primary">j</span>er</h3>
-            <ul>
-                <li>Portfolio</li>
-                <li>Artical</li>
-                <li><button class="btn_primary">Hire Me</button></li>
-            </ul>
-        </nav>
-         <div class="banner">
-            <div class="banner_content">
-                <h3 class="banner_greeting">Hey, I  am</h3>
-                <h1 class="banner_title">Monajer Munna</h1>
-                <p class="banner_description">Shot what able cold new see hold.Friendly as an betrayed formerly he. Morning because as to society behaved moments.</p>
-                <button class="btn_primary">Download cv</button>
-                <button class="btn_primary">Contact</button>
-            </div>
-            <img class="profile_pic" src="images/monajer2.png" alt="">
-         </div>
+      <nav>
+        <h3 class="portfolio_title">
+          Mona<span class="text_primary">j</span>er
+        </h3>
+        <ul>
+          <li>Portfolio</li>
+          <li>Artical</li>
+          <li><button class="btn_primary">Hire Me</button></li>
+        </ul>
+      </nav>
+      <div class="banner">
+        <div class="banner_content">
+          <h3 class="banner_greeting">Hey, I am</h3>
+          <h1 class="banner_title">Monajer Al Hakim</h1>
+          <p class="banner_description">
+            Shot what able cold new see hold.Friendly as an betrayed formerly
+            he. Morning because as to society behaved moments.
+          </p>
+          <button class="btn_primary">Download cv</button>
+          <button class="btn_primary">Contact</button>
+        </div>
+        <img class="profile_pic" src="images/monajer2.png" alt="" />
+      </div>
     </header>
     <main>
+      <section class="about">
+        <h3 class="section_title">About Me</h3>
+        <p class="section_description">
+          I, m a designer & developer with a passion for web design. I enjoy
+          developing simple, clean and slick websites that provide real value to
+          the end user. Thousands of clients have procured exceptional while
+          working with me. Delivering work within time and budget which meets
+          clients requirements in our.
+        </p>
+        <div class="about_info_container">
+          <!-- ?.about_info*4>h4.info_title+p.info_description -->
+          <div class="about_info">
+            <p class="info_title">Name:</p>
+            <h4 class="info_description">Monajer</h4>
+          </div>
+          <div class="about_info">
+            <p class="info_title">Email:</p>
+            <h4 class="info_description">monajeralhakim@gmail.com</h4>
+          </div>
+          <div class="about_info">
+            <p class="info_title">Date of Birth:</p>
+            <h4 class="info_description">16 may 1995</h4>
+          </div>
+          <div class="about_info">
+            <p class="info_title">from:</p>
+            <h4 class="info_description">Cp, Shahrasti</h4>
+          </div>
+        </div>
+    </section>
 
+        <!-- ?what i do section start -->
+        <section>
+          <h3 class="section_title">What I do</h3>
+          <p id="what_do_description" class="section_description">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus qui
+            ullam ipsam quasi ad magni autem officiis odit repudiandae minima.
+          </p>
+        </section>
+
+        <div class="skills_container">
+          <!-- ?.skill*4img+h3.skill_title+p.skill_description -->
+          <div class="skill">
+            <img src="images/icons/js.png" alt="" />
+            <h3 class="skill_title">Vanilla JavaScript</h3>
+            <p class="skill_description">
+              List skill/technologies here. You can change the icon above to any
+              of the 1500+ FontAwesome 5 free icons available. Aenean commodo
+              ligula eget dolor.
+            </p>
+          </div>
+          <div class="skill">
+            <img src="images/icons/react.png" alt="" />
+            <h3 class="skill_title">React</h3>
+            <p class="skill_description">
+              List skill/technologies here. You can change the icon above to any
+              of the 1500+ FontAwesome 5 free icons available. Aenean commodo
+              ligula eget dolor.
+            </p>
+          </div>
+          <div class="skill">
+            <img src="images/icons/nodejs.png" alt="" />
+            <h3 class="skill_title">Node.js</h3>
+            <p class="skill_description">
+              List skill/technologies here. You can change the icon above to any
+              of the 1500+ FontAwesome 5 free icons available. Aenean commodo
+              ligula eget dolor.
+            </p>
+          </div>
+          <div class="skill">
+            <img src="images/icons/mongo.png" alt="" />
+            <h3 class="skill_title">MongoDB</h3>
+            <p class="skill_description">
+              List skill/technologies here. You can change the icon above to any
+              of the 1500+ FontAwesome 5 free icons available. Aenean commodo
+              ligula eget dolor.
+            </p>
+          </div>
+        </div>
+      </section>
+      
+      <!-- ?Resume Section -->
+      <section>
+        <h3 class="section_title">A summary of My Resume</h3>
+
+        <div class="resume_container">
+            <div class="resume_colum">
+                <h3 class="resume_colum_title">My Education</h3>
+
+                <div class="resume_item">
+                    <h2 class="resume_item_title">Bachelor in Mathematics</h2>
+                    <h3 class="resume_item_institute">Harvard University / 2015 - 2017</h3>
+                    <p class="resume_item_description">List skill/technologies here. You can change the icon above 
+                        to any of the 1500+ FontAwesome 5 free icons available. Aenean commodo ligula eget dolor.</p>
+                </div>
+                <div class="resume_item">
+                    <h2 class="resume_item_title">Bachelor in Mathematics</h2>
+                    <h3 class="resume_item_institute">Harvard University / 2015 - 2017</h3>
+                    <p class="resume_item_description">List skill/technologies here. You can change the icon above 
+                        to any of the 1500+ FontAwesome 5 free icons available. Aenean commodo ligula eget dolor.</p>
+                </div>
+                <div class="resume_item">
+                    <h2 class="resume_item_title">Bachelor in Mathematics</h2>
+                    <h3 class="resume_item_institute">Harvard University / 2015 - 2017</h3>
+                    <p class="resume_item_description">List skill/technologies here. You can change the icon above 
+                        to any of the 1500+ FontAwesome 5 free icons available. Aenean commodo ligula eget dolor.</p>
+                </div>
+            </div>
+
+            <div class="resume_colum">
+                <h3 class="resume_colum_title">My Experience</h3>
+
+                <div class="resume_item">
+                    <h2 class="resume_item_title">Bachelor in Mathematics</h2>
+                    <h3 class="resume_item_institute">Harvard University / 2015 - 2017</h3>
+                    <p class="resume_item_description">List skill/technologies here. You can change the icon above 
+                        to any of the 1500+ FontAwesome 5 free icons available. Aenean commodo ligula eget dolor.</p>
+                </div>
+                <div class="resume_item">
+                    <h2 class="resume_item_title">Bachelor in Mathematics</h2>
+                    <h3 class="resume_item_institute">Harvard University / 2015 - 2017</h3>
+                    <p class="resume_item_description">List skill/technologies here. You can change the icon above 
+                        to any of the 1500+ FontAwesome 5 free icons available. Aenean commodo ligula eget dolor.</p>
+                </div>
+                <div class="resume_item">
+                    <h2 class="resume_item_title">Bachelor in Mathematics</h2>
+                    <h3 class="resume_item_institute">Harvard University / 2015 - 2017</h3>
+                    <p class="resume_item_description">List skill/technologies here. You can change the icon above 
+                        to any of the 1500+ FontAwesome 5 free icons available. Aenean commodo ligula eget dolor.</p>
+                </div>
+            </div>
+        </div>
+
+      </section>
     </main>
     <footer>
-
+        
     </footer>
-</body>
+  </body>
 </html>
