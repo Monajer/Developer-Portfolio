@@ -73,8 +73,8 @@ nav a {
 }
 .banner .profile_pic {
   /* width: 25%; */
-  width: 630px;
-  height: 735px;
+  width: 500px;
+  height: 600px;
   flex-shrink: 0;
 }
 .banner_greeting {
