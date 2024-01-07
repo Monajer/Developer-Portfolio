@@ -1,4 +1,5 @@
 /* ?common shared styles */
+
 body {
   font-family: "Open Sans", sans-serif;
 }
@@ -36,9 +37,8 @@ nav {
   margin: 0 200px;
 }
 .portfolio_title {
-  color: var(--Dark-01, #181818);
+  color: var #181818;
   font-size: 45px;
-  font-style: normal;
   font-weight: 800;
 }
 nav > ul {
@@ -55,6 +55,7 @@ nav a {
 }
 
 /* ?header related styles */
+
 .header {
   background: #fff8f3;
   background-image: url("../images/header_bg.png");
@@ -94,14 +95,17 @@ nav a {
 }
 
 /* ?main section styles */
+
 main {
   max-width: 1140px;
   margin: 0 auto;
 }
 main section {
-  margin-top: 80px; /*margin-top: 130px*/  
+  margin-top: 80px; /*margin-top: 130px*/
 }
+
 /* ?about section styles */
+
 .about {
   padding: 130px;
   border-radius: 10px;
@@ -121,11 +125,9 @@ main section {
 
 .about_info_container .about_info p {
   color: #757575;
-  /* padding: 15px; */
   font-size: 16px;
   font-weight: 700;
   line-height: 30px;
-  /* gap: 20px; */
 }
 
 /* ?skills related styles */
@@ -147,13 +149,84 @@ main section {
   color: #757575;
 }
 /* ?resume section style */
+
+.resume_container {
+  display: flex;
+  gap: 50px;
+}
 .resume_colum_title {
   color: #474747;
   display: flex;
   font-size: 30px;
   font-weight: 700;
 }
-.resume_container{
+.resume_item_title {
+  color: #474747;
+  font-size: 25px;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+.resume_item_institute {
+  margin-bottom: 20px;
+  margin-top: 0px;
+}
+.resume_item_institute .resume_item_description {
+  color: #757575;
+  font-weight: 400;
+  line-height: 28px; /* 175% */
+}
+.resume_container hr {
+  margin: 30px;
+}
+.download_cv {
+  text-align: center;
+  margin-top: 50px;
+}
+
+/* ?footer styles */
+
+footer {
   display: flex;
-  gap: 50px;
+  background-color: #fff8f3;
+  margin-top: 100px;
+  padding: 130px 200px;
+}
+.footer_colum {
+  width: 50%;
+}
+.footer_colum p {
+  text-align: left;
+  color: #474747;
+  padding: 20px;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 28px;
+}
+.social_links a {
+  /* !i'm trying to place icons in middle */
+  /* margin-right: 25px; */
+  padding: 20px;
+  margin: auto;
+  display: table;
+}
+.footer_colum h3 {
+  color: #181818;
+  font-size: 35px;
+  font-weight: 700;
+}
+
+/* ?contact form style */
+
+.contact input[type="name"],
+.contact input[type="email"],
+textarea {
+  display: block;
+  margin-bottom: 25px;
+  padding: 18px 35px;
+  font-size: 16px;
+  color: #757575;
+  border-radius: 5px;
+  background: #fff;
+  border: 0;
+  width: 100%;
 }
