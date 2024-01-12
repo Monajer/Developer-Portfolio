@@ -16,7 +16,7 @@
     <link rel="stylesheet" href="styles/portfolio.css" />
   </head>
   <body>
-    <header class="header">
+    <header class="header hide">
       <nav>
         <h3 class="portfolio_title">
           Mona<span class="text_primary">j</span>er
@@ -38,10 +38,12 @@
           <button class="btn_primary">Download cv</button>
           <button class="btn_primary">Contact</button>
         </div>
-        <img class="profile_pic" src="images/monajer2.png" alt="" />
+        <img class="profile_pic" src="images/monajer.png" alt="" />
       </div>
     </header>
     <main>
+
+      <!--? ABOUT SECTION -->
       <section class="about">
         <h3 class="section_title">About Me</h3>
         <p class="section_description">
@@ -74,113 +76,111 @@
 
         <!-- ?what i do section start -->
         <section>
-          <h3 class="section_title">What I do</h3>
-          <p id="what_do_description" class="section_description">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus qui
-            ullam ipsam quasi ad magni autem officiis odit repudiandae minima.
-          </p>
+          <div class="what_i_do">
+            <h3 class="skill_section_title">What I do</h3>
+            <p class="skill_section_description">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus qui
+              ullam ipsam quasi ad magni autem officiis odit repudiandae minima.
+            </p>
+          </div>
+          <div class="skills_container">
+            <!-- ?.skill*4img+h3.skill_title+p.skill_description -->
+            <div class="skill">
+              <img src="images/icons/js.png" alt="" />
+              <h3 class="skill_title">Vanilla JavaScript</h3>
+              <p class="skill_description">
+                List skill/technologies here. You can change the icon above to any
+                of the 1500+ FontAwesome 5 free icons available. Aenean commodo
+                ligula eget dolor.
+              </p>
+            </div>
+            <div class="skill">
+              <img src="images/icons/react.png" alt="" />
+              <h3 class="skill_title">React</h3>
+              <p class="skill_description">
+                List skill/technologies here. You can change the icon above to any
+                of the 1500+ FontAwesome 5 free icons available. Aenean commodo
+                ligula eget dolor.
+              </p>
+            </div>
+            <div class="skill">
+              <img src="images/icons/nodejs.png" alt="" />
+              <h3 class="skill_title">Node.js</h3>
+              <p class="skill_description">
+                List skill/technologies here. You can change the icon above to any
+                of the 1500+ FontAwesome 5 free icons available. Aenean commodo
+                ligula eget dolor.
+              </p>
+            </div>
+            <div class="skill">
+              <img src="images/icons/mongo.png" alt="" />
+              <h3 class="skill_title">MongoDB</h3>
+              <p class="skill_description">
+                List skill/technologies here. You can change the icon above to any
+                of the 1500+ FontAwesome 5 free icons available. Aenean commodo
+                ligula eget dolor.
+              </p>
+            </div>
+          </div>
         </section>
 
-        <div class="skills_container">
-          <!-- ?.skill*4img+h3.skill_title+p.skill_description -->
-          <div class="skill">
-            <img src="images/icons/js.png" alt="" />
-            <h3 class="skill_title">Vanilla JavaScript</h3>
-            <p class="skill_description">
-              List skill/technologies here. You can change the icon above to any
-              of the 1500+ FontAwesome 5 free icons available. Aenean commodo
-              ligula eget dolor.
-            </p>
+      <!-- ?Resume Section -->
+      <section>
+        <div>
+          <h3 class="section_title">A summary of My Resume</h3>
+        </div>
+
+        <div class="resume_section_colum">
+          <!-- Education -->
+          <div>
+            <h3 class="resume_colum_title">My Education</h3>
+            <h2 class="resume_item_title">Bachelor in Mathematics</h2>
+            <h3 class="resume_item_institute">Harvard University / 2015 - 2017</h3>
+            <p class="resume_item_description">List skill/technologies here. You can change the icon above to any of the 1500+ FontAwesome 5 free icons available. Aenean commodo ligula eget dolor.</p>
+            <hr>
+            <div class="resume_item">
+              <h2 class="resume_item_title">Bachelor in Mathematics</h2>
+              <h3 class="resume_item_institute">Harvard University / 2015 - 2017</h3>
+              <p class="resume_item_description">List skill/technologies here. You can change the icon above to any of the 1500+ FontAwesome 5 free icons available. Aenean commodo ligula eget dolor.</p>
+              <hr>
+            </div>
+            <div class="resume_item">
+              <h2 class="resume_item_title">Bachelor in Mathematics</h2>
+              <h3 class="resume_item_institute">Harvard University / 2015 - 2017</h3>
+              <p class="resume_item_description">List skill/technologies here. You can change the icon above to any of the 1500+ FontAwesome 5 free icons available. Aenean commodo ligula eget dolor.</p>
+              <hr>
+            </div>
           </div>
-          <div class="skill">
-            <img src="images/icons/react.png" alt="" />
-            <h3 class="skill_title">React</h3>
-            <p class="skill_description">
-              List skill/technologies here. You can change the icon above to any
-              of the 1500+ FontAwesome 5 free icons available. Aenean commodo
-              ligula eget dolor.
-            </p>
+          <!-- Experience -->
+          <div>
+            <h3 class="resume_colum_title">My Experience</h3>
+            <h2 class="resume_item_title">Bachelor in Mathematics</h2>
+            <h3 class="resume_item_institute">Harvard University / 2015 - 2017</h3>
+            <p class="resume_item_description">List skill/technologies here. You can change the icon above to any of the 1500+ FontAwesome 5 free icons available. Aenean commodo ligula eget dolor.</p>
+            <hr>
+            <div class="resume_item">
+              <h2 class="resume_item_title">Bachelor in Mathematics</h2>
+              <h3 class="resume_item_institute">Harvard University / 2015 - 2017</h3>
+              <p class="resume_item_description">List skill/technologies here. You can change the icon above to any of the 1500+ FontAwesome 5 free icons available. Aenean commodo ligula eget dolor.</p>
+              <hr>
+            </div>
+            <div class="resume_item">
+                <h2 class="resume_item_title">Bachelor in Mathematics</h2>
+                <h3 class="resume_item_institute">Harvard University / 2015 - 2017</h3>
+                <p class="resume_item_description">List skill/technologies here. You can change the icon above to any of the 1500+ FontAwesome 5 free icons available. Aenean commodo ligula eget dolor.</p>
+                <hr>
+            </div>
           </div>
-          <div class="skill">
-            <img src="images/icons/nodejs.png" alt="" />
-            <h3 class="skill_title">Node.js</h3>
-            <p class="skill_description">
-              List skill/technologies here. You can change the icon above to any
-              of the 1500+ FontAwesome 5 free icons available. Aenean commodo
-              ligula eget dolor.
-            </p>
-          </div>
-          <div class="skill">
-            <img src="images/icons/mongo.png" alt="" />
-            <h3 class="skill_title">MongoDB</h3>
-            <p class="skill_description">
-              List skill/technologies here. You can change the icon above to any
-              of the 1500+ FontAwesome 5 free icons available. Aenean commodo
-              ligula eget dolor.
-            </p>
-          </div>
+        </div>
+        <div class="download_cv">
+          <button class="btn_primary">Download cv</button>
         </div>
       </section>
       
-      <!-- ?Resume Section -->
-      <section>
-        <h3 class="section_title">A summary of My Resume</h3>
-        <div class="resume_container">
-            <div class="resume_colum">
-                <h3 class="resume_colum_title">My Education</h3>
-                <div class="resume_item">
-                    <h2 class="resume_item_title">Bachelor in Mathematics</h2>
-                    <h3 class="resume_item_institute">Harvard University / 2015 - 2017</h3>
-                    <p class="resume_item_description">List skill/technologies here. You can change the icon above 
-                        to any of the 1500+ FontAwesome 5 free icons available. Aenean commodo ligula eget dolor.</p>
-                        <hr>
-                </div>
-                <div class="resume_item">
-                    <h2 class="resume_item_title">Bachelor in Mathematics</h2>
-                    <h3 class="resume_item_institute">Harvard University / 2015 - 2017</h3>
-                    <p class="resume_item_description">List skill/technologies here. You can change the icon above 
-                        to any of the 1500+ FontAwesome 5 free icons available. Aenean commodo ligula eget dolor.</p>
-                        <hr>
-                </div>
-                <div class="resume_item">
-                    <h2 class="resume_item_title">Bachelor in Mathematics</h2>
-                    <h3 class="resume_item_institute">Harvard University / 2015 - 2017</h3>
-                    <p class="resume_item_description">List skill/technologies here. You can change the icon above 
-                      to any of the 1500+ FontAwesome 5 free icons available. Aenean commodo ligula eget dolor.</p>
-                        <hr>
-                </div>
-            </div>
-            <div class="resume_colum">
-                <h3 class="resume_colum_title">My Experience</h3>
-                <div class="resume_item">
-                    <h2 class="resume_item_title">Bachelor in Mathematics</h2>
-                    <h3 class="resume_item_institute">Harvard University / 2015 - 2017</h3>
-                    <p class="resume_item_description">List skill/technologies here. You can change the icon above 
-                        to any of the 1500+ FontAwesome 5 free icons available. Aenean commodo ligula eget dolor.</p>
-                        <hr>
-                </div>
-                <div class="resume_item">
-                    <h2 class="resume_item_title">Bachelor in Mathematics</h2>
-                    <h3 class="resume_item_institute">Harvard University / 2015 - 2017</h3>
-                    <p class="resume_item_description">List skill/technologies here. You can change the icon above 
-                        to any of the 1500+ FontAwesome 5 free icons available. Aenean commodo ligula eget dolor.</p>
-                        <hr>
-                </div>
-                <div class="resume_item">
-                    <h2 class="resume_item_title">Bachelor in Mathematics</h2>
-                    <h3 class="resume_item_institute">Harvard University / 2015 - 2017</h3>
-                    <p class="resume_item_description">List skill/technologies here. You can change the icon above 
-                        to any of the 1500+ FontAwesome 5 free icons available. Aenean commodo ligula eget dolor.</p>
-                        <hr>
-                </div>
-            </div>
-        </div>
-        <div class="download_cv">
-            <button class="btn_primary">Download cv</button>
-        </div>
-      </section>
     </main>
-    <footer>
+
+    <!--? footer -->
+    <footer class="">
       <div class="footer_colum">
         <h3 class="">Lets Connect</h3>
         <p class="">
@@ -198,7 +198,9 @@
               <input type="name" placeholder="your name">
               <input type="email" placeholder="your mail">
               <textarea name="" id="" cols="30" rows="10" placeholder="message"></textarea>
-              <input class="btn_primary" type="submit" value="Submit">
+              <div>
+                <input class="btn_primary" type="submit" value="Submit">
+              </div>
             </form>
         </div>
     </footer>
